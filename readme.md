@@ -13,7 +13,6 @@ A hardcore Minesweeper game implemented in C using SDL3 for graphics rendering. 
 
 ### Main Challenges
 - **SDL3 Graphics Rendering** (First Time!): GUI-based game interface with real-time rendering
-- **Font Rendering**: SDL3_TTF integration for dynamic text display
 - **Game State Management**: Complex state tracking for revealed squares, flagged mines, and game status
 - **Modular Architecture**: Separated backend logic from frontend rendering components
 - **Dynamic Grid System**: Scalable board generation with configurable difficulty
@@ -53,18 +52,12 @@ minesweeper/
 ## Installation & Setup
 
 ### Requirements
-- **SDL3 Runtime**: The game requires SDL3.dll and SDL3_ttf.dll to run
+- **SDL3 Runtime**: The game requires SDL3.dll to run
 - **Windows**: Built for Windows (x86_64)
 
 ### Installation Steps
 1. Download `minesweeper.exe`
-2. Ensure the following DLL file is in the same directory as the executable:
-   - `SDL3.dll`
-3. Run `minesweeper.exe`
-
-If you get a "missing DLL" error, copy the necessary SDL3 libraries from:
-- `C:\Users\rodri\Documents\Projects\computer_science\SDL\x86_64-w64-mingw32\lib\`
-- `C:\Users\rodri\Documents\Projects\computer_science\SDL_TTF\SDL3_ttf-3.2.2\x86_64-w64-mingw32\lib\`
+2. Download `SDL3.dll`
 
 ## How to play
 - **Left Click**: Reveal a square
