@@ -50,8 +50,21 @@ minesweeper/
 └── minesweeper.exe              # Compiled executable
 ```
 
-## Download & Run
-**Executable**: `minesweeper.exe`
+## Installation & Setup
+
+### Requirements
+- **SDL3 Runtime**: The game requires SDL3.dll and SDL3_ttf.dll to run
+- **Windows**: Built for Windows (x86_64)
+
+### Installation Steps
+1. Download `minesweeper.exe`
+2. Ensure the following DLL file is in the same directory as the executable:
+   - `SDL3.dll`
+3. Run `minesweeper.exe`
+
+If you get a "missing DLL" error, copy the necessary SDL3 libraries from:
+- `C:\Users\rodri\Documents\Projects\computer_science\SDL\x86_64-w64-mingw32\lib\`
+- `C:\Users\rodri\Documents\Projects\computer_science\SDL_TTF\SDL3_ttf-3.2.2\x86_64-w64-mingw32\lib\`
 
 ## How to play
 - **Left Click**: Reveal a square
