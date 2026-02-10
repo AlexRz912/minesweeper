@@ -47,7 +47,6 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
         printf("Allocation Error");
         return SDL_APP_FAILURE;
     }
-    printGrid(mineGrid);
     getBoxesDimensions(mineGrid);
 
     return SDL_APP_CONTINUE;
