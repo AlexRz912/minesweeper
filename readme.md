@@ -56,8 +56,10 @@ minesweeper/
 - **Windows**: Built for Windows (x86_64)
 
 ### Installation Steps
+
 1. Download `minesweeper.exe`
 2. Download `SDL3.dll`
+3. Make sure SDL3.dll is in same folder as the executable
 
 ## How to play
 - **Left Click**: Reveal a square
